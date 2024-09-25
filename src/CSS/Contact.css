@@ -100,7 +100,7 @@ input[type="submit"]:hover {
   height: 60px;
   font-size: 35px;
   font-weight: bold;
-  text-shadow: 0 0 10px #ff914d, 0 0 10px #ff6700;
+  text-shadow: 0 0 10px #ff4d4d, 0 0 10px #e7e7e7;
   color: #ffffff;
   text-align: center;
   padding: 3px;
@@ -123,20 +123,20 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
-  text-shadow: 0 0 15px #ffe56d, 0 0 15px #ffd700;
+  text-shadow: 0 0 15px #061a35, 0 0 15px #00b3ff;
   color: #ffffff;
   margin-top: 20px;
   padding: 10px;
   background-color: rgba(255, 215, 0, 0.1);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 10px rgba(214, 214, 214, 0.5);
 }
 
 .connect-msg {
   float: right;
   font-size: 48px;
   font-weight: 800;
-  text-shadow: 0 0 20px #ff5e78, 0 0 20px #ff0038;
+  text-shadow: 0 0 20px #0c15bd, 0 0 20px #00f2ff;
   color: #ffffff;
   margin-top: 100px;
   display: flex;

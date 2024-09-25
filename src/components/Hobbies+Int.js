@@ -11,28 +11,25 @@ import yankees from '../assets/yankees.png'
 import rangers from '../assets/rangers.png'
 import buffalo from '../assets/buffalo.png'
 import jets from '../assets/jets.png'
-import hobbies from '../assets/font/hobbies.png'
+import hobbies from '../assets/hobbies.png'
 
 export const Hobbies = () => {
 
     const foodItems = [
-        <div><img style={{ height: '400px' }} src={pizza} alt="Pizza" /></div>,
-        <div><img style={{ height: '400px' }} src={lasagna} alt="Lasagna" /></div>,
-        <div><img style={{ height: '400px' }} src={steak} alt="Skirt Steak" /></div>,
-        <div><img style={{ height: '400px' }} src={icecream} alt="Vanilla icecream" /></div>,
-        <div><img style={{ height: '400px' }} src={pancakes} alt="Pancakes" /></div>,
+        <div><img style={{ height: '600px' }} src={pizza} alt="Pizza" /></div>,
+        <div><img style={{ height: '600px' }} src={lasagna} alt="Lasagna" /></div>,
+        <div><img style={{ height: '600px' }} src={steak} alt="Skirt Steak" /></div>,
+        <div><img style={{ height: '600px' }} src={icecream} alt="Vanilla icecream" /></div>,
+        <div><img style={{ height: '600px' }} src={pancakes} alt="Pancakes" /></div>,
     ];
     
-    
-    
     const sportItems = [
-        <div><img style={{ height: '400px' }} src={knicks} alt="The New York Knicks" /></div>,
-        <div><img style={{ height: '400px' }} src={jets} alt="New York Jets" /></div>,
-        <div><img style={{ height: '400px' }} src={yankees} alt="New York Yankees" /></div>,
-        <div><img style={{ height: '400px' }} src={buffalo} alt="Buffalo Bills" /></div>,
-        <div><img style={{ height: '400px' }} src={rangers} alt="New York Rangers" /></div>,
+        <div><img style={{ height: '600px' }} src={knicks} alt="The New York Knicks" /></div>,
+        <div><img style={{ height: '600px' }} src={jets} alt="New York Jets" /></div>,
+        <div><img style={{ height: '600px' }} src={yankees} alt="New York Yankees" /></div>,
+        <div><img style={{ height: '600px' }} src={buffalo} alt="Buffalo Bills" /></div>,
+        <div><img style={{ height: '600px' }} src={rangers} alt="New York Rangers" /></div>,
 ]
-
     
         const responsive = {
             desktop: {

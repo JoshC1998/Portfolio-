@@ -18,7 +18,7 @@ import json from '../assets/skillsIcons/json-web-token.svg'
 import vsCode from '../assets/skillsIcons/vscode.svg'
 import mac from '../assets/skillsIcons/macos.svg'
 import laptop from '../assets/skillsIcons/laptop.png'
-import softskills from '../assets/skillsIcons/ss.png'
+import coreskills from '../assets/core.png'
 
 export const Skills = () => {
 
@@ -152,7 +152,7 @@ export const Skills = () => {
                 </Row>
             </Container>
             <div className= "ss-img-container">
-                <img className= "ss-img" src={softskills}/>        
+                <img className= "ss-img" src={coreskills}/>        
             </div>
             <div className= "soft-skills">
                 <div className="soft-skills-text">
