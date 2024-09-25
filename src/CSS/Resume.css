@@ -1,0 +1,59 @@
+.download-button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.download{
+    width: 30px;
+    height: 30px;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.head-button{
+    display: flex;
+    gap: 320px;
+}
+.resume-header {
+    color: rgb(255, 255, 255); /* Pure white text for high contrast */
+    font-weight: 900; /* Extra bold font weight */
+    font-size: 45px; /* Larger size for strong emphasis */
+    text-transform: uppercase; /* All caps for a commanding presence */
+    text-shadow: 0 0 15px #000000, 0 0 20px #1a1a1a; /* Darker and more intense shadow */
+    margin-bottom: 15px;
+    letter-spacing: 2px; /* Adds spacing between letters for a more impactful look */
+    font-family: 'Roboto', sans-serif; /* A modern, bold, clean font */
+}
+
+
+.text-bg{
+    position: relative; 
+    background-image: url('../assets/img/computer.png'); 
+    margin-top: 0;
+    padding: 150px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.resume-img-container {
+display: flex;
+justify-content: center;
+}
+
+.resume-img {
+max-width: 60%; 
+height: auto;
+}

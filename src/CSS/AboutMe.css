@@ -1,0 +1,365 @@
+.bg{
+    position: relative; 
+    background-image: url('../assets/city.png'); 
+    margin-top: 0;
+    padding: 150px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.content-container {
+    display: flex;
+    margin-top: -30px;
+}
+
+.my-pic{
+    border-radius: 50%;
+    width: 50%;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 80px;
+    border: .5rem solid rgba(0, 0, 0, 0.699);
+    position: relative;
+}
+
+.header{
+    color: whitesmoke;
+    margin-top: 70px;
+    margin-left: 350px;
+}
+
+.who-am-I{
+    width: 60%;
+    margin-left: 300px;
+    margin-top: -150px ;
+}
+
+.about-text{
+    width: 74%;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -250px;
+    background-color: rgba(0, 0, 0, 0.669);
+    border-radius: 20px;
+    padding: 10px;
+    border: .5rem solid rgb(188, 188, 188);
+}
+
+.p{
+    line-height: 1.4;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.skill-name{
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.technical-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.technical-skills-image{
+    width: 50%;
+    margin-top: -180px;
+    margin-bottom: -270px;
+}
+
+/* hover over skill images and it glows */
+.col:hover {
+    box-shadow: 0 0 20px rgba(44, 255, 41, 0.7);
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+.front-header{
+    color: rgb(241, 243, 246);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -20px;
+    text-shadow: 0 0 10px #000000, 0 0 10px #0000FF;
+}
+
+.skills-container{
+    display: flex; 
+    /* flex-direction: row; */
+    gap: 100px; 
+    width: 1200px;
+    height: 400px;
+    /* margin-left: 107px; */
+    align-items: center;
+    justify-content: center;
+} 
+
+.skill-bx{
+    width: 90px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: inline; 
+}
+
+.skills-header{
+    display: flex;
+    gap: 480px;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.tools-header{
+    color: rgb(241, 243, 246);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.tool-bx{
+    height: 40px;
+    display: inline; 
+}
+
+.tool-icon{
+    height: 150px;
+}
+
+.skills-center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.me{
+    height: 400px;
+    width: 400px;
+}
+
+.soft-skills{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    margin-top: -80px;
+}
+
+.soft-skills-text{
+    color: whitesmoke;
+    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.ss-img{
+    width: 25%;
+}
+
+.ss-img-container{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+
+.carousel{
+    height: 390px;
+    width: 300px;
+    margin-left: -50px;
+}
+
+.carousel-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+.hobbies-title{
+    width: 40%
+}
+
+.hobbies-img-container{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+
+.hobbies-text{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.485);
+    margin-bottom: 30px;
+}
+
+.foods-teams-header{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 630px;
+    color: rgb(241, 243, 246);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 0 10px #2982d0, 0 0 10px #0000FF;
+}
+
+.edu-header{
+    color: rgb(241, 243, 246);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 0 10px #1c8acf, 0 0 10px #0000FF;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.education{
+    width:50%;
+    position: left;
+    padding-left: 100px;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.flat-img, .stony-img {
+    width: 20%; /* Set the same width for both */
+    height: 110px; /* Set the same height for both */
+    padding-bottom: 10px; /* Set the same padding for both */
+    margin-left: 20px; /* Optional: Add the same margin for consistency */
+}
+
+
+.edu-text{
+    color: white;
+    font-size: 30px;
+    align-items: center; 
+    padding-left: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #1baf01, 0 0 10px #470247;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px
+}
+
+.flatiron{
+    display: flex; 
+    padding-top: 20px;
+    margin-left: -20px;
+}
+
+.stony-edu-text{
+    color: white;
+    font-size: 30px;
+    align-items: center; 
+    padding-left: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #1baf01, 0 0 10px #470247;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px
+}
+
+.degree-txt{
+    font-size: 18px;
+}
+
+.education-experience{
+    display: flex;
+    position: right;
+}
+
+.edu-content{
+    border-radius: 15px;
+}
+.work{
+    width: 50%;
+    padding-left: 70px;
+}
+
+.work-content {
+    margin-right: -5px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.work-header{
+    color: rgb(241, 243, 246);
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 0 10px #00aeff, 0 0 10px #0000FF;
+    padding-left: 90px;
+}
+
+.statmd {
+    display: flex;
+}
+
+.statmd-header{
+    color: white;
+    font-size: 3px;
+    align-items: center; 
+    font-weight: bold;
+    padding: 2px;
+}
+
+.text-work {
+    width: 70%;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 0; /* Centers the element horizontally */
+    margin-right: auto; /* Centers the element horizontally */
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* pulsating my bitmoji */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.me {
+    animation: pulse 4s infinite;
+}
+
+/* hover over soft skills and they shake */
+.soft-skills-text  {
+    transition: transform 0.3s ease;
+}
+
+.soft-skills-text  :hover {
+    animation: shake 0.6s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(-5px, 0);
+    }
+}
