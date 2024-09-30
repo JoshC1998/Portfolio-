@@ -31,7 +31,7 @@
 
 .who-am-I{
     width: 80%; /* Updated width back */
-    margin-left: 300px; /* Updated margin-left back */
+    margin-left: 200px; /* Updated margin-left back */
     margin-top: -250px ; /* Updated margin-top back */
 }
 
@@ -39,9 +39,9 @@
     width: 74%;
     color: whitesmoke;
     text-align: center;
-    margin-left: 200px; /* Updated margin-left back */
+    margin-left: 150px; /* Updated margin-left back */
     margin-top: -350px; /* Updated margin-top back */
-    background-color: rgba(0, 0, 0, 0.483); /* Retained original color */
+    background-color: rgba(0, 0, 0, 0.732); /* Retained original color */
     border-radius: 20px;
     padding: 10px;
     border: .5rem solid rgb(255, 255, 255); /* Retained original color */
@@ -67,7 +67,7 @@
 }
 
 .technical-skills-image{
-    width: 50%; /* Updated width back */
+    width: 80%; /* Updated width back */
     margin-top: -180px; /* Updated margin-top back */
     margin-bottom: -270px; /* Updated margin-bottom back */
 }
