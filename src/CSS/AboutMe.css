@@ -157,9 +157,9 @@
 
 .ss-img{
     width: 90%; /* Updated width back */
-    margin-left: 15px; /* Updated margin-left back */
-    margin-top: -700px ;
-    margin-bottom: -200px;
+    margin-left: -75px; /* Updated margin-left back */
+    margin-top: -750px ;
+    margin-bottom: -250px;
 }
 
 .ss-img-container{
