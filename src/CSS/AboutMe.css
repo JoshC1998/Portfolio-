@@ -31,7 +31,7 @@
 
 .who-am-I{
     width: 80%; /* Updated width back */
-    margin-left: 200px; /* Updated margin-left back */
+    margin-left: 100px; /* Updated margin-left back */
     margin-top: -250px ; /* Updated margin-top back */
 }
 
@@ -68,8 +68,8 @@
 
 .technical-skills-image{
     width: 80%; /* Updated width back */
-    margin-top: -180px; /* Updated margin-top back */
-    margin-bottom: -270px; /* Updated margin-bottom back */
+    margin-top: -380px; /* Updated margin-top back */
+    margin-bottom: -570px; /* Updated margin-bottom back */
 }
 
 /* Hover over skill images and it glows */
