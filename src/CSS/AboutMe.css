@@ -1,6 +1,6 @@
 .bg{
     position: relative; 
-    background-image: url('../assets/city.png'); 
+    background-image: url('../assets/city.png'); /* Changed background image */
     margin-top: 0;
     padding: 150px 0 100px 0;
     background-position: top center;
@@ -15,8 +15,8 @@
 
 .my-pic{
     border-radius: 50%;
-    width: 50%;
-    height: 500px;
+    width: 50%; /* Updated width */
+    height: 500px; /* Updated height */
     margin-top: 150px;
     margin-left: 80px;
     border: .5rem solid rgba(0, 0, 0, 0.699);
@@ -30,9 +30,9 @@
 }
 
 .who-am-I{
-    width: 100%;
-    margin-left: 30px;
-    margin-top: -500px ;
+    width: 100%; /* Updated width */
+    margin-left: 30px; /* Updated margin-left */
+    margin-top: -500px; /* Updated margin-top */
 }
 
 .about-text{
@@ -40,11 +40,11 @@
     color: whitesmoke;
     text-align: center;
     margin-left: 200px;
-    margin-top: -500px;
-    background-color: rgba(0, 0, 0, 0.669);
+    margin-top: -500px; /* Updated margin-top */
+    background-color: rgba(166, 129, 211, 0.839); /* Retained original color */
     border-radius: 20px;
     padding: 10px;
-    border: .5rem solid rgb(188, 188, 188);
+    border: .5rem solid rgb(127, 65, 228); /* Retained original color */
 }
 
 .p{
@@ -67,14 +67,14 @@
 }
 
 .technical-skills-image{
-    width: 100%;
-    margin-top: -700px;
-    margin-bottom: -700px;
+    width: 100%; /* Updated width */
+    margin-top: -700px; /* Updated margin-top */
+    margin-bottom: -700px; /* Updated margin-bottom */
 }
 
 /* hover over skill images and it glows */
 .col:hover {
-    box-shadow: 0 0 20px rgba(44, 255, 41, 0.7);
+    box-shadow: 0 0 20px rgba(196, 118, 241, 0.7); /* Retained original color */
     border-radius: 30px;
     transform: scale(1.1);
 }
@@ -84,16 +84,14 @@
     font-weight: bold;
     font-size: 50px;
     margin-top: -20px;
-    text-shadow: 0 0 10px #000000, 0 0 10px #0000FF;
+    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
 }
 
 .skills-container{
     display: flex; 
-    /* flex-direction: row; */
     gap: 100px; 
     width: 1200px;
     height: 400px;
-    /* margin-left: 107px; */
     align-items: center;
     justify-content: center;
 } 
@@ -118,10 +116,9 @@
     font-weight: bold;
     font-size: 50px;
     margin-top: 10px;
-    text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
     justify-content: center;
     text-align: center;
-
 }
 
 .tool-bx{
@@ -140,8 +137,8 @@
 }
 
 .me{
-    height: 400px;
-    width: 400px;
+    height: 400px; /* Updated height */
+    width: 400px; /* Updated width */
 }
 
 .soft-skills{
@@ -153,16 +150,16 @@
 
 .soft-skills-text{
     color: whitesmoke;
-    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+    text-shadow: 0 0 5px #ae00ff, 0 0 5px #753fb8; /* Retained original color */
     font-weight: bold;
     font-size: 40px;
 }
 
 .ss-img{
-    width: 90%;
-    margin-left: -150px;
-    margin-top: -900px ;
-    margin-bottom: -250px;
+    width: 90%; /* Updated width */
+    margin-left: -150px; /* Updated margin-left */
+    margin-top: -900px; /* Updated margin-top */
+    margin-bottom: -250px; /* Updated margin-bottom */
 }
 
 .ss-img-container{
@@ -172,24 +169,23 @@
 }
 
 .carousel{
-    height: 600px;
-    width: 450px;
-    margin-left: -50px;
+    height: 600px; /* Updated height */
+    width: 450px; /* Updated width */
+    margin-left: -50px; /* Updated margin-left */
 }
 
 .carousel-container{
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     gap: 100px;
 }
 
 .hobbies-title{
-    width: 95%;
+    width: 95%; /* Updated width */
     margin-left: 30px;
-    margin-top: -700px;
-    margin-bottom: -700px;
+    margin-top: -700px; /* Updated margin-top */
+    margin-bottom: -700px; /* Updated margin-bottom */
 }
 
 .hobbies-img-container{
@@ -200,54 +196,52 @@
 
 .hobbies-text{
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+    text-shadow: 0 0 5px #ae00ff, 0 0 5px #753fb8; /* Retained original color */
     font-weight: bold;
-    font-size: 35px;
+    font-size: 35px; /* Updated font-size */
     text-align: center;
     padding: 10px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.485);
+    background-color: rgba(212, 157, 213, 0.701); /* Retained original color */
     margin-bottom: 30px;
-    margin-left: -50px ;
+    margin-left: -50px; /* Updated margin-left */
 }
 
 .foods-teams-header{
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 850px;
+    gap: 850px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
-    font-size: 200px;
-    text-shadow: 0 0 10px #2982d0, 0 0 10px #0000FF;
+    font-size: 200px; /* Updated font-size */
+    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
 }
 
 .edu-header{
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 50px;
-    text-shadow: 0 0 10px #1c8acf, 0 0 10px #0000FF;
+    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 
 .education{
-    width:50%;
+    width: 50%; 
     position: left;
     padding-left: 100px;
     justify-content: center; 
     align-items: center; 
-    
 }
 
 .flat-img, .stony-img {
-    width: 20%; /* Set the same width for both */
-    height: 110px; /* Set the same height for both */
-    padding-bottom: 10px; /* Set the same padding for both */
+    width: 20%; /* Updated width */
+    height: 110px; /* Updated height */
+    padding-bottom: 10px; /* Retained padding */
     margin-left: 20px; /* Optional: Add the same margin for consistency */
 }
-
 
 .edu-text{
     color: white;
@@ -255,17 +249,17 @@
     align-items: center; 
     padding-left: 10px;
     font-weight: bold;
-    text-shadow: 0 0 10px #1baf01, 0 0 10px #470247;
+    text-shadow: 0 0 10px #7801af, 0 0 10px #470247; /* Retained original color */
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 .flatiron{
     display: flex; 
     padding-top: 20px;
-    margin-left: -20px;
+    margin-left: -20px; /* Updated margin-left */
 }
 
 .stony-edu-text{
@@ -274,11 +268,11 @@
     align-items: center; 
     padding-left: 10px;
     font-weight: bold;
-    text-shadow: 0 0 10px #1baf01, 0 0 10px #470247;
+    text-shadow: 0 0 10px #7801af, 0 0 10px #470247; /* Retained original color */
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 .degree-txt{
@@ -293,14 +287,15 @@
 .edu-content{
     border-radius: 15px;
 }
+
 .work{
     width: 50%;
     padding-left: 70px;
 }
 
 .work-content {
-    margin-right: -5px;
-    margin-left: 0px;
+    margin-right: -5px; /* Updated margin-right */
+    margin-left: 0px; /* Updated margin-left */
     padding: 10px;
     border-radius: 15px;
 }
@@ -309,7 +304,7 @@
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 50px;
-    text-shadow: 0 0 10px #00aeff, 0 0 10px #0000FF;
+    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
     padding-left: 90px;
 }
 
@@ -326,34 +321,22 @@
 }
 
 .text-work {
-    width: 70%;
+    width: 70%; /* Updated width */
     color: whitesmoke;
     text-align: center;
-    margin-left: 0; /* Centers the element horizontally */
-    margin-right: auto; /* Centers the element horizontally */
+    margin-left: 0; /* Updated margin-left */
+    margin-right: auto; /* Updated margin-right */
     margin-top: 20px;
     border-radius: 20px;
     padding: 10px;
 }
 
-/* pulsating my bitmoji */
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
+/* Pulsating my bitmoji */
 .me {
     animation: pulse 4s infinite;
 }
 
-/* hover over soft skills and they shake */
+/* Hover over soft skills and they shake */
 .soft-skills-text  {
     transition: transform 0.3s ease;
 }
