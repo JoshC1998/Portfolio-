@@ -150,7 +150,7 @@
 
 .soft-skills-text{
     color: whitesmoke;
-    text-shadow: 0 0 5px #ae00ff, 0 0 5px #753fb8; /* Retained original color */
+    text-shadow: 0 0 5px #2eabff, 0 0 5px #1d72c7; /* Retained original color */
     font-weight: bold;
     font-size: 40px;
 }
@@ -169,9 +169,9 @@
 }
 
 .carousel{
-    height: 600px; /* Updated height */
-    width: 450px; /* Updated width */
-    margin-left: -50px; /* Updated margin-left */
+    height: 390px; /* Updated height */
+    width: 390px; /* Updated width */
+    margin-left: 50px; /* Updated margin-left */
 }
 
 .carousel-container{
@@ -184,8 +184,8 @@
 .hobbies-title{
     width: 95%; /* Updated width */
     margin-left: 30px;
-    margin-top: -700px; /* Updated margin-top */
-    margin-bottom: -700px; /* Updated margin-bottom */
+    margin-top: -620px; /* Updated margin-top */
+    margin-bottom: -650px; /* Updated margin-bottom */
 }
 
 .hobbies-img-container{
