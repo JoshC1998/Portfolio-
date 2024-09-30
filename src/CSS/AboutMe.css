@@ -169,9 +169,9 @@
 }
 
 .carousel{
-    height: 390px; /* Updated height back */
-    width: 300px; /* Updated width back */
-    margin-left: 30px; /* Updated margin-left back */
+    height: 600px; /* Updated height */
+    width: 450px; /* Updated width */
+    margin-left: -50px; /* Updated margin-left */
 }
 
 .carousel-container{
@@ -182,7 +182,10 @@
 }
 
 .hobbies-title{
-    width: 40%; /* Updated width back */
+    width: 95%; /* Updated width */
+    margin-left: 30px;
+    margin-top: -700px; /* Updated margin-top */
+    margin-bottom: -700px; /* Updated margin-bottom */
 }
 
 .hobbies-img-container{
@@ -195,22 +198,23 @@
     color: rgb(255, 255, 255);
     text-shadow: 0 0 5px #ae00ff, 0 0 5px #753fb8; /* Retained original color */
     font-weight: bold;
-    font-size: 30px; /* Updated font-size back */
+    font-size: 35px; /* Updated font-size */
     text-align: center;
     padding: 10px;
     border-radius: 15px;
     background-color: rgba(212, 157, 213, 0.701); /* Retained original color */
     margin-bottom: 30px;
+    margin-left: -50px; /* Updated margin-left */
 }
 
 .foods-teams-header{
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 630px; /* Updated gap back */
+    gap: 850px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
-    font-size: 50px; /* Updated font-size back */
+    font-size: 200px; /* Updated font-size */
     text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
 }
 
@@ -225,39 +229,21 @@
 }
 
 .education{
-    width:50%;
+    width: 50%; 
     position: left;
     padding-left: 100px;
     justify-content: center; 
     align-items: center; 
-    
 }
 
-.flat-img{
-    width: 23%; /* Updated width back */
-    height: 70px; /* Updated height back */
+.flat-img, .stony-img {
+    width: 20%; /* Updated width */
+    height: 110px; /* Updated height */
     padding-bottom: 10px; /* Retained padding */
+    margin-left: 20px; /* Optional: Add the same margin for consistency */
 }
 
 .edu-text{
-    color: white;
-    font-size: 30px;
-    align-items: center; 
-    padding-left: 10px;
-    font-weight: bold;
-    text-shadow: 0 0 10px #ae00ff, 0 0 10px #470247; /* Retained original color */
-    border-radius: 15px;
-    padding: 2px;
-    text-align: center;
-}
-
-.flatiron{
-    display: flex; 
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.bing-edu-text{
     color: white;
     font-size: 30px;
     align-items: center; 
@@ -267,7 +253,26 @@
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    margin-left: 15px
+    margin-left: 15px;
+}
+
+.flatiron{
+    display: flex; 
+    padding-top: 20px;
+    margin-left: -20px; /* Updated margin-left */
+}
+
+.stony-edu-text{
+    color: white;
+    font-size: 30px;
+    align-items: center; 
+    padding-left: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #7801af, 0 0 10px #470247; /* Retained original color */
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
 }
 
 .degree-txt{
@@ -282,13 +287,15 @@
 .edu-content{
     border-radius: 15px;
 }
+
 .work{
     width: 50%;
     padding-left: 70px;
 }
 
-.work-content{
-    margin-right: 60px; /* Updated margin-right back */
+.work-content {
+    margin-right: -5px; /* Updated margin-right */
+    margin-left: 0px; /* Updated margin-left */
     padding: 10px;
     border-radius: 15px;
 }
@@ -313,24 +320,18 @@
     padding: 2px;
 }
 
-.text-work{
-    color: white;
-    font-weight: bold ;
+.text-work {
+    width: 70%; /* Updated width */
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 0; /* Updated margin-left */
+    margin-right: auto; /* Updated margin-right */
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /* Pulsating my bitmoji */
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
 .me {
     animation: pulse 4s infinite;
 }
