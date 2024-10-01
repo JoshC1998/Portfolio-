@@ -102,6 +102,7 @@
     align-items: center;
     justify-content: center;
     display: inline; 
+    background-color: transparent;
 }
 
 .skills-header{
