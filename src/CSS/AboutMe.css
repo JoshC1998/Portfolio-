@@ -178,7 +178,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100 px;
+    gap: 80 px;
 }
 
 .hobbies-title{
@@ -211,7 +211,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 750px; /* Updated gap */
+    gap: 700px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 200px; /* Updated font-size */
