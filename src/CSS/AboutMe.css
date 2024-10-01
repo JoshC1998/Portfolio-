@@ -169,9 +169,9 @@
 }
 
 .carousel{
-    height: 390px; /* Updated height */
-    width: 390px; /* Updated width */
-    margin-left: 50px; /* Updated margin-left */
+    height: 420px; /* Updated height */
+    width: 420px; /* Updated width */
+    margin-left: -50px; /* Updated margin-left */
 }
 
 .carousel-container{
