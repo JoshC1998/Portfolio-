@@ -98,8 +98,8 @@
 } 
 
 .skill-bx {
-    width: 90px; /* Fixed width */
-    height: 100px; /* Fixed height */
+    width: 204px; /* Fixed width */
+    height: 150px; /* Fixed height */
     align-items: center;
     justify-content: center;
     display: flex; /* Changed to flex for alignment */
