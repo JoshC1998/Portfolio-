@@ -214,7 +214,9 @@
 
 .foods-teams-header{
     display: flex;
-    gap: 720px; /* Updated gap */
+    justify-content: center; 
+    align-items: center;
+    gap: 700px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 250px; /* Updated font-size */
