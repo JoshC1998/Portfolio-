@@ -78,57 +78,80 @@
     border-radius: 30px;
     transform: scale(1.1);
 }
-
-.front-header{
-    color: rgb(241, 243, 246);
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: -20px;
-    text-shadow: 0 0 10px #0091ff, 0 0 10px #0000FF; /* Retained original color */
+.skill-bx,
+.tool-bx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
 }
 
-.skills-container{
-    display: flex; 
-    margin-top: 100px;
-    gap: 100px; 
-    width: 1200px;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-} 
-
-
-.skills-header{
-    display: flex;
-    gap: 480px;
-    justify-content: center;
-    margin-top: -30px;
+.skill-bx img,
+.tool-bx img {
+  width: 80px; /* Set a consistent width */
+  height: 80px; /* Set a consistent height */
+  object-fit: contain; /* Ensure the image fits inside the box without distortion */
+  margin-bottom: 10px;
 }
 
-.tools-header{
-    color: rgb(241, 243, 246);
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
-    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
-    justify-content: center;
-    text-align: center;
+.skill-name {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
-.tool-bx, .skill-bx{
-    height: 40px;
-    display: inline; 
+.skills-header,
+.tools-header {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.tool-icon{
-    height: 150px;
+.skills-container,
+.back-skills-container {
+  display: flex;
+  justify-content: center;
 }
 
 .skills-center {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.front-skills-container,
+.back-skills-container {
+  width: 100%; /* Adjust based on the space you want for the containers */
+}
+
+.front-skills-container .skill-bx,
+.back-skills-container .skill-bx {
+  margin: 20px; /* Adjust spacing between skill boxes */
+}
+
+.skills-header,
+.front-header {
+  margin-bottom: 10px;
+}
+
+.front-header,
+.back-header {
+  margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
 
 .me{
     height: 500px;
