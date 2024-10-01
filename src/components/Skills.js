@@ -19,6 +19,8 @@ import vsCode from '../assets/skillsIcons/vscode.svg'
 import mac from '../assets/skillsIcons/macos.svg'
 import laptop from '../assets/skillsIcons/laptop.png'
 import coreskills from '../assets/core.png'
+import java from '../assets/core.png'
+import spring from '../assets/spring.png'
 
 export const Skills = () => {
 
@@ -113,6 +115,20 @@ export const Skills = () => {
                                     </div>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                    <div className="skill-bx">
+                                    <img src={java} alt="java"/>
+                                        <p className="skill-name">java</p>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div className="skill-bx">
+                                    <img src={spring} alt="Spring"/>
+                                        <p className="skill-name">spring</p>
+                                    </div>
+                                </Col>
+                            </Row>
                     </Container>
                     </div>
             </div>
@@ -158,13 +174,13 @@ export const Skills = () => {
                 <div className="soft-skills-text">
                     <p>team player</p>
                     <p>detail oriented</p>
-                    <p>creative</p>
+                    <p>innovative</p>
                 </div>
                 <img className= "me" src={laptop}/>
                 <div className= "soft-skills-text">
                     <p>ambitious</p>
                     <p>problem-solver</p>
-                    <p>critical thinker</p>
+                    <p>analytical</p>
                 </div>
             </div>
             </> 

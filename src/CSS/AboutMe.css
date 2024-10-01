@@ -40,7 +40,7 @@
     color: whitesmoke;
     text-align: center;
     margin-left: 150px; /* Updated margin-left back */
-    margin-top: -350px; /* Updated margin-top back */
+    margin-top: -320px; /* Updated margin-top back */
     background-color: rgba(0, 0, 0, 0.732); /* Retained original color */
     border-radius: 20px;
     padding: 10px;
@@ -317,7 +317,7 @@
     display: flex;
 }
 
-.hob-header{
+.job-header{
     color: white;
     font-size: 3px;
     align-items: center; 
