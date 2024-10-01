@@ -45,7 +45,7 @@ export const AboutMe = () => {
                 <div className="work">
                 <h2 className="work-header">Work Experience</h2>
                 <div className="work-content">
-                    <div className="statmd-header">
+                    <div className="job-header">
                         <h3>Emergency Medical Technician | Northwell Health</h3>
                         <h3>11/2021 - 12/2022</h3>
                     </div>
@@ -55,7 +55,7 @@ export const AboutMe = () => {
                         <ul>Quickly assessed patient conditions and made informed decisions to implement appropriate medical interventions</ul>
                         <ul>Accurately docuemented patient information in EMR</ul>
                     </div>
-                    <div className="statmd-header">
+                    <div className="job-header">
                         <h3>Patient Registration Specialist | White Plains Hospital</h3>
                         <h3>05/2023 - 06/2024</h3>
                     </div>
@@ -64,7 +64,7 @@ export const AboutMe = () => {
                         <ul>Collects patient co-pays, deposits daily collections with proper documentation, and maintains statistical data for emergency and labor/delivery patients</ul>
                         <ul>Proficient in utilizing EPIC Systems for efficient patient registration, data management, and maintaining accurate electronic health records (EHR)</ul>
                     </div>
-                    <div className="statmd-header">
+                    <div className="job-header">
                         <h3>Manager | Betty's Total Events</h3>
                         <h3>6/2020 - 5/2023</h3>
                     </div>

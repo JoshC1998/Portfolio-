@@ -317,7 +317,7 @@
     display: flex;
 }
 
-.statmd-header{
+.hob-header{
     color: white;
     font-size: 3px;
     align-items: center; 
@@ -326,11 +326,11 @@
 }
 
 .text-work {
-    width: 70%; /* Updated width */
+    width: 90%; /* Increase width to make sentences longer */
     color: whitesmoke;
-    text-align: center;
-    margin-left: 0; /* Updated margin-left */
-    margin-right: auto; /* Updated margin-right */
+    text-align: left; /* Change text alignment to the left */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
     margin-top: 20px;
     border-radius: 20px;
     padding: 10px;
