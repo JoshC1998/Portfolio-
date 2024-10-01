@@ -97,19 +97,33 @@
     justify-content: center;
 } 
 
-.back-skills-container{
+.back-skills-container, .front-skills-container {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex; /* Use flexbox to align the containers */
+    justify-content: center; /* Center align */
+    flex-wrap: wrap; /* Allow wrapping if there are too many items */
 }
 
-.skill-bx{
-    width: 90px;
-    height: 100px;
+.skill-bx {
+    width: 90px; /* Fixed width */
+    height: 100px; /* Fixed height */
     align-items: center;
     justify-content: center;
-    display: inline; 
+    display: flex; /* Changed to flex for alignment */
     background-color: transparent;
+    margin: 10px; /* Adjust margin to add spacing between skill boxes */
+    box-sizing: border-box; /* Ensures padding and border do not affect size */
 }
+
+.skill-bx img {
+    height: 80px; /* Set consistent height for images */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Make sure image fits within container */
+    display: block; /* Ensure image is block level to remove extra space */
+    margin: auto; /* Center the image inside the container */
+}
+
 
 .skills-header{
     display: flex;
