@@ -51,20 +51,22 @@ export const Skills = () => {
                                     <p className="skill-name">React</p>
                                 </div>
                             </Col>
+                        </Row>
+                        <Row>
                             <Col>
                                 <div className="skill-bx">
                                     <img src={tailwind} alt="tailwind"/>
                                     <p className="skill-name">Tailwind</p>
                                 </div>
                             </Col>
-                            </Row>
-                        <Row>
                             <Col>
                                 <div className="skill-bx">
                                 <img src={bootstrap} alt="bootstrap"/>
                                     <p className="skill-name">Bootstrap</p>
                                 </div>
                             </Col>
+                        </Row>
+                        <Row>
                             <Col>
                                 <div className="skill-bx">
                                 <img src={html} alt="html"/>
