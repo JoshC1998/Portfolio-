@@ -21,6 +21,11 @@ import laptop from '../assets/skillsIcons/laptop.png'
 import coreskills from '../assets/core.png'
 import java from '../assets/skillsIcons/java.svg'
 import spring from '../assets/skillsIcons/spring.svg'
+import IntelliJ from '../assets/skillsIcons/IntelliJ IDEA.svg'
+import maven from '../assets/skillsIcons/maven.svg'
+import docker from '../assets/skillsIcons/docker.svg'
+import gradle from '../assets/skillsIcons/gradle.svg'
+import postman from '../assets/skillsIcons/postman.svg'
 
 export const Skills = () => {
 
@@ -163,6 +168,38 @@ export const Skills = () => {
                         <div className="tool-bx">
                         <img className="tool-icon" src={mac} alt="macOS"/>
                             <p className="skill-name">MacOS</p>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <div className="tool-bx">
+                        <img className="tool-icon" src={gradle} alt="gradle"/>
+                            <p className="skill-name">Gradle</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="tool-bx">
+                        <img className="tool-icon" src={postman} alt="postman"/>
+                            <p className="skill-name">postman</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="tool-bx">
+                        <img className="tool-icon" src={docker} alt="docker"/>
+                            <p className="skill-name">Docker</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="tool-bx">
+                        <img className="tool-icon" src={maven} alt="maven"/>
+                            <p className="skill-name">Maven</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="tool-bx">
+                        <img className="tool-icon" src={IntelliJ} alt="In"/>
+                            <p className="skill-name">IntelliJ IDEA</p>
                         </div>
                     </Col>
                 </Row>
