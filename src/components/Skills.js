@@ -19,7 +19,7 @@ import vsCode from '../assets/skillsIcons/vscode.svg'
 import mac from '../assets/skillsIcons/macos.svg'
 import laptop from '../assets/skillsIcons/laptop.png'
 import coreskills from '../assets/core.png'
-import java from '../assets/skillsIcons/java.png'
+import java from '../assets/skillsIcons/java.svg'
 import spring from '../assets/skillsIcons/spring.png'
 
 export const Skills = () => {
