@@ -20,7 +20,7 @@ import mac from '../assets/skillsIcons/macos.svg'
 import laptop from '../assets/skillsIcons/laptop.png'
 import coreskills from '../assets/core.png'
 import java from '../assets/skillsIcons/java.svg'
-import spring from '../assets/skillsIcons/spring.png'
+import spring from '../assets/skillsIcons/spring.svg'
 
 export const Skills = () => {
 
