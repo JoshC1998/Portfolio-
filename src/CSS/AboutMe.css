@@ -116,14 +116,6 @@
     box-sizing: border-box; /* Ensures padding and border do not affect size */
 }
 
-.skill-bx img {
-    height: 80px; /* Set consistent height for images */
-    width: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Make sure image fits within container */
-    display: block; /* Ensure image is block level to remove extra space */
-    margin: auto; /* Center the image inside the container */
-}
-
 
 .skills-header{
     display: flex;
