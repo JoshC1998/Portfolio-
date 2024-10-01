@@ -176,7 +176,7 @@
 .carousel2{
     height: 420px; /* Updated height */
     width: 390px; /* Updated width */
-    margin-left: 70px; /* Updated margin-left */
+    margin-left: 60px; /* Updated margin-left */
 }
 
 .carousel-container{
@@ -214,8 +214,6 @@
 
 .foods-teams-header{
     display: flex;
-    justify-content: center; 
-    align-items: center;
     gap: 720px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
