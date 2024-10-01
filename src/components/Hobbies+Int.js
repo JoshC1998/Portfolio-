@@ -64,7 +64,7 @@ export const Hobbies = () => {
                     <p> exploring the city </p>
                     <p> trying out new restaurants</p>
                 </div>
-                <Carousel responsive={responsive} infinite={true} className = "carousel">{sportItems}</Carousel>
+                <Carousel responsive={responsive} infinite={true} className = "carousel2">{sportItems}</Carousel>
             </div>
         </div>
     )

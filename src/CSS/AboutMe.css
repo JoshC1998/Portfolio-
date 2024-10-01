@@ -173,6 +173,11 @@
     width: 420px; /* Updated width */
     margin-left: -50px; /* Updated margin-left */
 }
+.carousel2{
+    height: 420px; /* Updated height */
+    width: 420px; /* Updated width */
+    margin-left: -100px; /* Updated margin-left */
+}
 
 .carousel-container{
     display: flex;
