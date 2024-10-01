@@ -97,14 +97,6 @@
     justify-content: center;
 } 
 
-.back-skills-container, .front-skills-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex; /* Use flexbox to align the containers */
-    justify-content: center; /* Center align */
-    flex-wrap: wrap; /* Allow wrapping if there are too many items */
-}
-
 .skill-bx {
     width: 90px; /* Fixed width */
     height: 100px; /* Fixed height */
