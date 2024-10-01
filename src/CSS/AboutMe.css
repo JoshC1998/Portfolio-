@@ -171,7 +171,7 @@
 .carousel{
     height: 420px; /* Updated height */
     width: 420px; /* Updated width */
-    margin-left: -30px; /* Updated margin-left */
+    margin-left: 30px; /* Updated margin-left */
 }
 .carousel2{
     height: 420px; /* Updated height */
@@ -216,7 +216,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 700px; /* Updated gap */
+    gap: 720px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 200px; /* Updated font-size */
