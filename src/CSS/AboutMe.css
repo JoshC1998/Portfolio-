@@ -84,11 +84,12 @@
     font-weight: bold;
     font-size: 50px;
     margin-top: -20px;
-    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
+    text-shadow: 0 0 10px #0091ff, 0 0 10px #0000FF; /* Retained original color */
 }
 
 .skills-container{
     display: flex; 
+    margin-top: 100px;
     gap: 100px; 
     width: 1200px;
     height: 400px;
