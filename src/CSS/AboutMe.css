@@ -97,17 +97,6 @@
     justify-content: center;
 } 
 
-.skill-bx {
-    width: 204px; /* Fixed width */
-    height: 150px; /* Fixed height */
-    align-items: center;
-    justify-content: center;
-    display: flex; /* Changed to flex for alignment */
-    background-color: transparent;
-    margin: 10px; /* Adjust margin to add spacing between skill boxes */
-    box-sizing: border-box; /* Ensures padding and border do not affect size */
-}
-
 
 .skills-header{
     display: flex;
@@ -126,7 +115,7 @@
     text-align: center;
 }
 
-.tool-bx{
+.tool-bx, .skill-bx{
     height: 40px;
     display: inline; 
 }
