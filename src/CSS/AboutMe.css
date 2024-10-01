@@ -184,8 +184,8 @@
 .hobbies-title{
     width: 95%; /* Updated width */
     margin-left: 30px;
-    margin-top: -600px; /* Updated margin-top */
-    margin-bottom: -600px; /* Updated margin-bottom */
+    margin-top: -575px; /* Updated margin-top */
+    margin-bottom: -575px; /* Updated margin-bottom */
 }
 
 .hobbies-img-container{
@@ -211,7 +211,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 700px; /* Updated gap */
+    gap: 750px; /* Updated gap */
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 200px; /* Updated font-size */

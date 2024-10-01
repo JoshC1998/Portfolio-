@@ -55,6 +55,24 @@ export const AboutMe = () => {
                         <ul>Quickly assessed patient conditions and made informed decisions to implement appropriate medical interventions</ul>
                         <ul>Accurately docuemented patient information in EMR</ul>
                     </div>
+                    <div className="statmd-header">
+                        <h3>Patient Registration Specialist | White Plains Hospital</h3>
+                        <h3>05/2023 - 06/2024</h3>
+                    </div>
+                    <div className="text-work">
+                        <ul>Registered all incoming patients, ensuring accurate recording of demographic and billing information in the hospital information system</ul>
+                        <ul>Collects patient co-pays, deposits daily collections with proper documentation, and maintains statistical data for emergency and labor/delivery patients</ul>
+                        <ul>Proficient in utilizing EPIC Systems for efficient patient registration, data management, and maintaining accurate electronic health records (EHR)</ul>
+                    </div>
+                    <div className="statmd-header">
+                        <h3>Manager | Betty's Total Events</h3>
+                        <h3>6/2020 - 5/2023</h3>
+                    </div>
+                    <div className="text-work">
+                        <ul>Led a team of staff to execute events, ensuring smooth operations from setup to breakdown</ul>
+                        <ul>Managed scheduling, staffing, and inventory to optimize service efficiency and maintain high-quality standards during weddings, corporate events, and private functions</ul>
+                        <ul>Acted as the primary point of contact for clients, addressing any concerns promptly and ensuring things ran smoothly</ul>
+                    </div>
                 </div>
                 </div>
             </div>
