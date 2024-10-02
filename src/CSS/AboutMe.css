@@ -249,7 +249,7 @@
     align-items: center;
     padding-left: 10px;
     font-weight: bold;
-    text-shadow: 0 0 10px #7801af, 0 0 10px #470247;
+    text-shadow: 0 0 10px #0135af, 0 0 10px #076a7c;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -268,7 +268,7 @@
     align-items: center;
     padding-left: 10px;
     font-weight: bold;
-    text-shadow: 0 0 10px #7801af, 0 0 10px #470247;
+    text-shadow: 0 0 10px #0b2fb1, 0 0 10px #0d3f94;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -304,7 +304,7 @@
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 50px;
-    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF;
+    text-shadow: 0 0 10px #005eff, 0 0 10px #0000FF;
     padding-left: 90px;
 }
 
