@@ -84,7 +84,7 @@
     font-weight: bold;
     font-size: 50px;
     margin-top: -20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-shadow: 0 0 10px #0091ff, 0 0 10px #0000FF; /* Retained original color */
 }
 
@@ -110,8 +110,9 @@
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 50px;
-    margin-top: 100px;
-    text-shadow: 0 0 10px #ae00ff, 0 0 10px #0000FF; /* Retained original color */
+    margin-top: 140px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px #103ebd, 0 0 10px #0000FF; /* Retained original color */
     justify-content: center;
     text-align: center;
 }
