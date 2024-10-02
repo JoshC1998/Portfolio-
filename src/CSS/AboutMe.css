@@ -171,7 +171,7 @@
 .carousel2 {
     height: 420px;
     width: 390px;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 .carousel-container {
@@ -204,7 +204,7 @@
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.729);
     margin-bottom: 30px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .foods-teams-header {
