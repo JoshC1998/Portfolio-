@@ -10,18 +10,20 @@ export const Contact = () => {
     const form = useRef();
     const [show, setShow] = useState(false);
 
-    // For testing, use hardcoded values. Replace these with your actual keys.
-    const serviceKey = 'service_d3yuljm'; // Service ID
-    const templateKey = 'template_sthm2x5'; // Template ID
-    const id = 'TJXge7FCmSbWkb1Bm'; // Public Key
+    // Accessing environment variables
+    const serviceKey = process.env.REACT_APP_ID; // Service ID (REACT_APP_ID)
+    const templateKey = process.env.REACT_APP_TEMPLATE_KEY; // Template ID (REACT_APP_TEMPLATE_KEY)
+    const id = process.env.REACT_APP_PUBLIC_KEY; // Public Key (REACT_APP_PUBLIC_KEY)
 
-    // Use console.log to verify the values are correct
+    // Logging to verify values are being loaded correctly
     console.log("Service Key:", serviceKey);
     console.log("Template Key:", templateKey);
-    console.log("Public Key (User ID):", id);
+    console.log("Public Key:", id);
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        // Using the environment variables to send email
         emailjs.sendForm(serviceKey, templateKey, form.current, id)
         .then((result) => {
             console.log("Email successfully sent:", result.text);
