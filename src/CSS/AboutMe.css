@@ -121,7 +121,7 @@
     display: inline; 
 }
 
-.tool-icon{
+.tool-icon, .skill-icon{
     height: 150px;
 }
 

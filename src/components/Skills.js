@@ -28,26 +28,25 @@ import gradle from '../assets/skillsIcons/gradle.svg'
 import postman from '../assets/skillsIcons/postman.svg'
 
 export const Skills = () => {
-
-        return (
-            <>
+    return (
+        <>
             <div className="skills-header">
                 <h1 className="front-header">Front-End</h1>
                 <h1 className="front-header">Back-End</h1>
             </div>
             <div className="skills-center">
                 <div className="skills-container">
-                <Container className="front-skills-container">
+                    <Container className="front-skills-container">
                         <Row>
                             <Col>
                                 <div className="skill-bx">
-                                <img src={js} alt="javascript"/>
+                                    <img className="skill-icon" src={js} alt="javascript"/>
                                     <p className="skill-name">JavaScript</p>
                                 </div>
                             </Col>
                             <Col>
                                 <div className="skill-bx">
-                                    <img src={react} alt="React"/>
+                                    <img className="skill-icon" src={react} alt="React"/>
                                     <p className="skill-name">React</p>
                                 </div>
                             </Col>
@@ -55,13 +54,13 @@ export const Skills = () => {
                         <Row>
                             <Col>
                                 <div className="skill-bx">
-                                    <img src={tailwind} alt="tailwind"/>
+                                    <img className="skill-icon" src={tailwind} alt="tailwind"/>
                                     <p className="skill-name">Tailwind</p>
                                 </div>
                             </Col>
                             <Col>
                                 <div className="skill-bx">
-                                <img src={bootstrap} alt="bootstrap"/>
+                                    <img className="skill-icon" src={bootstrap} alt="bootstrap"/>
                                     <p className="skill-name">Bootstrap</p>
                                 </div>
                             </Col>
@@ -69,106 +68,106 @@ export const Skills = () => {
                         <Row>
                             <Col>
                                 <div className="skill-bx">
-                                <img src={html} alt="html"/>
+                                    <img className="skill-icon" src={html} alt="html"/>
                                     <p className="skill-name">HTML 5</p>
                                 </div>
                             </Col>
                             <Col>
                                 <div className="skill-bx">
-                                <img src={css} alt="css"/>
-                                    <p className="skill-name">CSS 3 </p>
+                                    <img className="skill-icon" src={css} alt="css"/>
+                                    <p className="skill-name">CSS 3</p>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                     <Container className="back-skills-container">
-                            <Row>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={python} alt="python"/>
-                                        <p className="skill-name">Python</p>
-                                    </div>
-                                </Col>
-                                    <Col>
-                                    <div className="skill-bx">
-                                        <img src={flask} alt="Flask"/>
-                                        <p className="skill-name">Flask</p>
-                                    </div>
-                                </Col>
-                                <Col>
+                        <Row>
+                            <Col>
                                 <div className="skill-bx">
-                                    <img src={node} alt="node.js"/>
+                                    <img className="skill-icon" src={python} alt="python"/>
+                                    <p className="skill-name">Python</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={flask} alt="Flask"/>
+                                    <p className="skill-name">Flask</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={node} alt="node.js"/>
                                     <p className="skill-name">Node.JS</p>
                                 </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={mongodb} alt="mongodb"/>
-                                        <p className="skill-name">MongoDB</p>
-                                    </div>
-                                </Col>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={sql} alt="SQL"/>
-                                        <p className="skill-name">SQL</p>
-                                    </div>
-                                </Col>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={postgresql} alt="postgresql"/>
-                                        <p className="skill-name" >Postgresql</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={java} alt="java"/>
-                                        <p className="skill-name">java</p>
-                                    </div>
-                                </Col>
-                                <Col>
-                                    <div className="skill-bx">
-                                    <img src={spring} alt="Spring"/>
-                                        <p className="skill-name">spring</p>
-                                    </div>
-                                </Col>
-                            </Row>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={mongodb} alt="mongodb"/>
+                                    <p className="skill-name">MongoDB</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={sql} alt="SQL"/>
+                                    <p className="skill-name">SQL</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={postgresql} alt="postgresql"/>
+                                    <p className="skill-name">Postgresql</p>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={java} alt="java"/>
+                                    <p className="skill-name">Java</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="skill-bx">
+                                    <img className="skill-icon" src={spring} alt="Spring"/>
+                                    <p className="skill-name">Spring</p>
+                                </div>
+                            </Col>
+                        </Row>
                     </Container>
-                    </div>
+                </div>
             </div>
             <h1 className="tools-header">Development Tools</h1>
             <Container>
                 <Row>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={figma} alt="figma"/>
+                            <img className="tool-icon" src={figma} alt="figma"/>
                             <p className="skill-name">Figma</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={git} alt="git"/>
+                            <img className="tool-icon" src={git} alt="git"/>
                             <p className="skill-name">Git</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={json} alt="JWT"/>
+                            <img className="tool-icon" src={json} alt="JWT"/>
                             <p className="skill-name">JSON Web Token</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={vsCode} alt="vsCode"/>
+                            <img className="tool-icon" src={vsCode} alt="vsCode"/>
                             <p className="skill-name">Visual Studio Code</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={mac} alt="macOS"/>
+                            <img className="tool-icon" src={mac} alt="macOS"/>
                             <p className="skill-name">MacOS</p>
                         </div>
                     </Col>
@@ -176,31 +175,31 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={gradle} alt="gradle"/>
+                            <img className="tool-icon" src={gradle} alt="gradle"/>
                             <p className="skill-name">Gradle</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={postman} alt="postman"/>
-                            <p className="skill-name">postman</p>
+                            <img className="tool-icon" src={postman} alt="postman"/>
+                            <p className="skill-name">Postman</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={docker} alt="docker"/>
+                            <img className="tool-icon" src={docker} alt="docker"/>
                             <p className="skill-name">Docker</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={maven} alt="maven"/>
+                            <img className="tool-icon" src={maven} alt="maven"/>
                             <p className="skill-name">Maven</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="tool-bx">
-                        <img className="tool-icon" src={IntelliJ} alt="In"/>
+                            <img className="tool-icon" src={IntelliJ} alt="IntelliJ"/>
                             <p className="skill-name">IntelliJ IDEA</p>
                         </div>
                     </Col>
