@@ -171,7 +171,7 @@
 .carousel2 {
     height: 420px;
     width: 390px;
-    margin-left: -70px;
+    margin-left: 70px;
 }
 
 .carousel-container {
@@ -211,7 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 800px;
+    gap: 700px;
     color: rgb(241, 243, 246);
     font-weight: bold;
     font-size: 250px;
