@@ -49,8 +49,10 @@
 }
 
 .resume-img-container {
-display: flex;
-justify-content: center;
+    display: flex;
+    flex-direction: column; /* Change to column to stack images vertically */
+    justify-content: center;
+    align-items: center; /* Center the images horizontally */
 }
 
 .resume-img {
