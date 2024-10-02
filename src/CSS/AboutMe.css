@@ -82,7 +82,7 @@
 .front-header{
     color: rgb(241, 243, 246);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     margin-top: -20px;
     margin-bottom: 50px;
     text-shadow: 0 0 10px #0091ff, 0 0 10px #0000FF; /* Retained original color */
@@ -109,7 +109,7 @@
 .tools-header{
     color: rgb(241, 243, 246);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 140px;
     margin-bottom: 50px;
     text-shadow: 0 0 10px #103ebd, 0 0 10px #0000FF; /* Retained original color */
@@ -186,7 +186,7 @@
     width: 95%; /* Updated width */
     margin-left: 30px;
     margin-top: -575px; /* Updated margin-top */
-    margin-bottom: -575px; /* Updated margin-bottom */
+    margin-bottom: -550px; /* Updated margin-bottom */
 }
 
 .hobbies-img-container{
