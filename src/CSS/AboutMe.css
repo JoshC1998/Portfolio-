@@ -171,7 +171,7 @@
 .carousel2 {
     height: 420px;
     width: 390px;
-    margin-left: -40px;
+    margin-left: -70px;
 }
 
 .carousel-container {
@@ -179,6 +179,7 @@
     justify-content: center;
     align-items: center;
     gap: 65px;
+    margin-left: -75px;
 }
 
 .hobbies-title {
