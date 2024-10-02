@@ -306,7 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img:hover {
   transform: scale(1.05); /* Slightly enlarge the image */
 }
-/* @keyframes updown {
+@keyframes updown {
     0% {
         transform: translateX(20px);
     }
@@ -316,7 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     100% {
         transform: translateX(20px);
     }
-} */
+} 
 .txt-rotate > .wrap {
   border-right: 0.03em solid #666;
 }
