@@ -165,13 +165,13 @@
 .carousel {
     height: 420px;
     width: 420px;
-    margin-left: 30px;
+    margin-left: -30px;
 }
 
 .carousel2 {
     height: 420px;
     width: 390px;
-    margin-left: 40px;
+    margin-left: -40px;
 }
 
 .carousel-container {

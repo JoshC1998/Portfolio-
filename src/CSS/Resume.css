@@ -20,16 +20,15 @@
     gap: 320px;
 }
 .resume-header {
-    color: rgb(255, 255, 255); /* Pure white text for high contrast */
-    font-weight: 900; /* Extra bold font weight */
-    font-size: 45px; /* Larger size for strong emphasis */
-    text-transform: uppercase; /* All caps for a commanding presence */
-    text-shadow: 0 0 15px #000000, 0 0 20px #1a1a1a; /* Darker and more intense shadow */
+    color: rgb(255, 255, 255); 
+    font-weight: 900; 
+    font-size: 45px; 
+    text-transform: uppercase; 
+    text-shadow: 0 0 15px #000000, 0 0 20px #1a1a1a; 
     margin-bottom: 15px;
-    letter-spacing: 2px; /* Adds spacing between letters for a more impactful look */
-    font-family: 'Roboto', sans-serif; /* A modern, bold, clean font */
+    letter-spacing: 2px; 
+    font-family: 'Roboto', sans-serif; 
 }
-
 
 .text-bg{
     position: relative; 
@@ -50,9 +49,9 @@
 
 .resume-img-container {
     display: flex;
-    flex-direction: column; /* Change to column to stack images vertically */
+    flex-direction: column; 
     justify-content: center;
-    align-items: center; /* Center the images horizontally */
+    align-items: center; 
 }
 
 .resume-img {

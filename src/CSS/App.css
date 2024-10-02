@@ -84,7 +84,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 21.6px 0; /* Increased by 20% */
+  padding: 21.6px 0; 
   position: fixed;
   width: 100%;
   top: 0;
@@ -98,15 +98,15 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  width: 18%; /* Increased by 20% */
+  width: 18%; 
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 30px; /* Increased by 20% */
-  font-size: 21.6px; /* Increased by 20% */
+  padding: 0 30px; 
+  font-size: 21.6px; 
   opacity: 0.75;
 }
 
@@ -124,9 +124,9 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 21.6px 40.8px; /* Increased by 20% */
-  font-size: 21.6px; /* Increased by 20% */
-  margin-left: 21.6px; /* Increased by 20% */
+  padding: 21.6px 40.8px; 
+  font-size: 21.6px; 
+  margin-left: 21.6px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
@@ -166,24 +166,24 @@ nav.navbar .navbar-toggler:focus {
 }
 
 nav.navbar .navbar-toggler-icon {
-  width: 28.8px; /* Increased by 20% */
-  height: 20.4px; /* Increased by 20% */
+  width: 28.8px; 
+  height: 20.4px; 
   background-image: none;
   position: relative;
-  border-bottom: 2.4px solid #fff; /* Increased by 20% */
+  border-bottom: 2.4px solid #fff; 
   transition: all 300ms linear;
-  top: -2.4px; /* Increased by 20% */
+  top: -2.4px; 
 }
 
 nav.navbar .navbar-toggler-icon:focus {
-  border-bottom: 2.4px solid #fff; /* Increased by 20% */
+  border-bottom: 2.4px solid #fff; 
 }
 
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
-  width: 4.8px; /* Increased by 20% */
+  width: 4.8px; 
   position: absolute;
-  height: 2.4px; /* Increased by 20% */
+  height: 2.4px; 
   background-color: #fff;
   top: 0;
   left: 0;
@@ -193,19 +193,19 @@ nav.navbar .navbar-toggler-icon:before {
 }
 
 nav.navbar .navbar-toggler-icon:after {
-  top: 9.6px; /* Increased by 20% */
+  top: 9.6px; 
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
   background-color: #fff;
-  height: 2.4px; /* Increased by 20% */
+  height: 2.4px; 
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-  transform: translateY(9.6px) rotate(-45deg); /* Increased by 20% */
+  transform: translateY(9.6px) rotate(-45deg); 
   background-color: #fff;
-  height: 2.4px; /* Increased by 20% */
+  height: 2.4px; 
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -251,14 +251,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
   border-radius: 5px;
   text-shadow: 0 0 10px #b42ac1, 0 0 10px #470247;
-  /* margin-left: 25%; */
   align-items: center;
   justify-content: center;
   display: flex;
   width: 300px;
 }
 .welcome-page-text{
-  /* background-color: aqua; */
   width: 600px;
 }
 .banner h1 {
@@ -304,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-top: 40px;
 }
 .banner img:hover {
-  transform: scale(1.05); /* Slightly enlarge the image */
+  transform: scale(1.05); 
 }
 @keyframes updown {
     0% {
@@ -323,11 +321,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill-bx {
   text-align: center;
-  /* padding: 60px 50px; */
   margin-top: 10px;
   color: white
-
-
 }
 
 
@@ -344,13 +339,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project {
   padding: 120px 0;
-  /* z-index: -1; */
   position: relative;
   background-image: url('../assets/img/city5.png');
   background-attachment: fixed;
-  background-size: cover; /* Ensures the image fully covers the background */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 .project h2 {
 	font-size: 45px;
@@ -362,7 +356,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-shadow: 0 0 10px #009dff, 0 0 10px #0000FF;
 } 
 .project p {
-  /* color: #B8B8B8; */
   font-size: 30px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
