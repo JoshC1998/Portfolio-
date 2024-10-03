@@ -1,7 +1,6 @@
 import React from 'react';
 import resume from '../assets/Resume.pdf'
 import my_resume from '../assets/my_resume.png'
-import my_resume2 from '../assets/my_resume2.png'
 import download from '../assets/download.png'
 import CSS from '../CSS/Resume.css'
 
@@ -18,7 +17,7 @@ export const Resume = () => {
                 </div>
                 <div className="resume-img-container">
                      <img className="resume-img" src={my_resume} alt="Resume" />
-                     <img className="resume-img" src={my_resume2} alt="Second Resume" />
+                     
                 </div>
             </div>
         </div>
