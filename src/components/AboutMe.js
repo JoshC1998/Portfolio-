@@ -45,6 +45,15 @@ export const AboutMe = () => {
                 <div className="work">
                 <h2 className="work-header">Work Experience</h2>
                 <div className="work-content">
+                <div className="job-header">
+                        <h3>Patient Registration Specialist | White Plains Hospital</h3>
+                        <h3>05/2023 - 06/2024</h3>
+                    </div>
+                    <div className="text-work">
+                        <ul>Registered all incoming patients, ensuring accurate recording of demographic and billing information in the hospital information system</ul>
+                        <ul>Collects patient co-pays, deposits daily collections with proper documentation, and maintains statistical data for emergency and labor/delivery patients</ul>
+                        <ul>Proficient in utilizing EPIC Systems for efficient patient registration, data management, and maintaining accurate electronic health records (EHR)</ul>
+                    </div>
                     <div className="job-header">
                         <h3>Emergency Medical Technician | Northwell Health</h3>
                         <h3>11/2021 - 12/2022</h3>
@@ -54,15 +63,6 @@ export const AboutMe = () => {
                         <ul>Safely transported patients to hospitals while maintaining continuous monitoring and treatment during transit</ul>
                         <ul>Quickly assessed patient conditions and made informed decisions to implement appropriate medical interventions</ul>
                         <ul>Accurately docuemented patient information in EMR</ul>
-                    </div>
-                    <div className="job-header">
-                        <h3>Patient Registration Specialist | White Plains Hospital</h3>
-                        <h3>05/2023 - 06/2024</h3>
-                    </div>
-                    <div className="text-work">
-                        <ul>Registered all incoming patients, ensuring accurate recording of demographic and billing information in the hospital information system</ul>
-                        <ul>Collects patient co-pays, deposits daily collections with proper documentation, and maintains statistical data for emergency and labor/delivery patients</ul>
-                        <ul>Proficient in utilizing EPIC Systems for efficient patient registration, data management, and maintaining accurate electronic health records (EHR)</ul>
                     </div>
                     <div className="job-header">
                         <h3>Manager | Betty's Total Events</h3>
